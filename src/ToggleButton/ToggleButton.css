@@ -1,0 +1,54 @@
+body{
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s;
+
+    &.dark-mode{
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+.toggle{
+    --width: 140px;
+    --height: calc(var(--width)/2);
+    --border-radius: calc(var(--height)/2);
+
+    display: inline-block;
+    cursor: pointer;
+
+    .toggle__input{
+        display: none;
+
+        &:checked ~ .toggle__fill{
+            /* background: #009578; */
+            background-color: #dddddd;
+
+            &::after{
+                transform: translateX(var(--height))
+            }
+        }
+    }   
+
+    .toggle__fill{
+        position: relative;
+        width: var(--width);
+        height: var(--height);
+        border-radius: var(--border-radius);
+        background-color: #e8f801;
+        transition: background-color 0.2s;
+    }
+
+    .toggle__fill::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: var(--height);
+        width: var(--height);
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: var(--border-radius);
+        transition: transform 0.2s;
+    }
+}

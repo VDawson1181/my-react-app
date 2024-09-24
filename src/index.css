@@ -1,0 +1,238 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: hsl(0, 0%, 10%); */
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .count-display{
+    font-size: 10em;
+    margin: 0 0 10px 0;
+  }
+
+  .counter-button{
+    width: 125px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: hsl(197, 100%, 58%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: hsl(197, 100%, 40%);
+    }
+  }
+
+}
+
+
+#cardContainer{
+  display: grid;
+  grid-template-columns: auto;
+  /* flex-wrap: wrap;*/
+  justify-content: center; 
+  gap: 10px;
+
+  & > h3{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    grid-column: auto / span 3;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  & .card{
+    /* background-color: #fff; */
+    border: 1px solid hsl(0,0%,80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsl(0,0%,0%,0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+
+    transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+  
+      & .card-image{
+        background-color: hsl(0, 0%, 0%);
+        /* max-width: 60%;  */
+        width: 150px;
+        height: 150px;
+        /* height: auto; */
+        border-radius: 50%;
+        margin-bottom: 10px;
+        object-fit: contain;
+      }
+  
+      & .card-title{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        color: hsl(0, 0%, 20%);
+      }
+  
+      & .card-text{
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(0, 0%, 30%)
+      }
+
+      &.cardValid:hover{
+        background-color: hsl(180, 100%, 55%);
+        cursor: pointer;
+      }
+      &.cardInvalid:hover{
+        background-color: hsl(0, 100%, 90%);
+        opacity: 0.95;
+        cursor: not-allowed;
+      }
+  
+  }
+  
+  Button.button{
+    background-color: hsl(200, 100%, 50%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h1{
+    margin: 50px;
+    font-size: 3rem;
+  }
+
+  .color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25 ease;
+    
+    & p{
+      color: hsl(0, 0%, 20%);
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+
+  label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid hsl(0, 0%, 80%);
+  }
+}
+
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  min-width: 500px;
+
+  & h1{
+    font-size: 4rem; 
+    color: #fff;
+  }
+
+  & button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+
+  .add-button{
+    background-color: hsl(125, 47%, 54%);
+    margin-left: 10px;
+
+    &:hover{
+      background-color: hsl(125, 47%, 44%);
+    }
+  }
+  .delete-button{
+    background-color: hsl(10, 90%, 50%);
+
+    &:hover{
+      background-color: hsl(10, 90%, 40%);
+    }
+  }
+
+  .move-button{
+    background-color: hsl(207, 90%, 64%);
+
+    &:hover{
+      background-color: hsl(207, 90%, 54%);
+    }
+  }
+
+  input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+  }
+
+  ol{ 
+    padding: 0;
+
+    & li{
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 10px;
+      padding: 15px;
+      background-color: hsl(0, 0%, 97%);
+      border: 3px solid hsla(0, 0%, 85%, 0.75);
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+
+      .text{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+      }
+
+      .delete-button, .move-button{
+        padding: 8px 12px;
+        font-size: 1.4rem;
+        margin-left: 10px;
+      }
+    }
+  
+  }
+
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+}
