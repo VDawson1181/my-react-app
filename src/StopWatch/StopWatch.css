@@ -14,9 +14,8 @@ body{
     backdrop-filter: blur(15px);
     border-radius: 20px 0 20px 0;
     border: 2px solid hsla(0, 0%, 0%, 0.5);
-    /* background-color: white; */
     padding: 30px;
-    /* margin-top: 20px; */
+    margin-bottom: 20px;
 
     .display{
         font-size: 5rem;
