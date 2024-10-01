@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: hsl(0, 0%, 10%); */
+    box-sizing: border-box;
+    background-image: url('./../assets/random-institute-Bkgrnd.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.pkgArticleMain{
+    min-height: 100vh;
+    min-width: 750px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    grid-template-columns: minmax(10px, 2fr) 3fr;
+    gap: 20px;
+
+
+
+    .pkgArticle_PackageDescription{
+        position: relative;
+        
+        aside{
+            position: sticky;
+            top: 15px;
+            text-align: center;
+            backdrop-filter: blur(15px);
+            border-radius: 0 20px 20px 0;
+            border: 2px solid hsla(0, 0%, 0%, 0.5);
+            border-left: none;
+            padding: 20px;
+            /* padding: 10px 5px; */
+            /* position: fixed; */
+
+            h1{
+                /* grid-column-start: 1;
+                grid-column-end: 3; */
+        
+                font-size: 4rem;
+                color: #000;
+                font-weight: bold;
+                text-shadow: 3px 3px 5px hsla(0, 0%, 100%, 0.75);
+                text-align: center;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+    }
+
+    .pkgArticle_PackageRundown li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 50px;
+
+        p{
+            font-size: 2rem;
+            text-align: center;
+            text-shadow: 2px 2px 3px hsla(0, 0%, 100%, 0.95);
+        }
+    }
+}

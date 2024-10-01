@@ -1,4 +1,5 @@
 // https://youtu.be/CgkZ7MvWUAA?si=9Z-I9c1Hf38Crb2M&t=9601
+import './reset.css';
 // import Header from "./Header.jsx"
 // import Home from "./Home.jsx";
 // import Card from "./Card.jsx";
@@ -10,12 +11,13 @@
 // import MyUpdatedArrayComponent from "./MyUpdatedArrayComponent.jsx";
 // import ToDoList from "./ToDoList.jsx";
 // import UseEffectExample from "./UseEffectExample.jsx";
-import DigitalClockApp from "./DigitalClock/DigitalClockApp.jsx";
+// import DigitalClockApp from "./DigitalClock/DigitalClockApp.jsx";
 // import ComponentA from "./useContextExample/ComponentA.jsx";
 // import ToggleButton from "./ToggleButton/ToggleButton";
 // import './ToggleButton/ToggleButton.css'
 // import UseRefComponent from "./useRefExample/UseRefComponent";
-import StopWatchApp from "./StopWatch/StopWatchApp";
+// import StopWatchApp from "./StopWatch/StopWatchApp";
+import PkgArticle from "./Pkg_Article/PkgArticle";
 
 function App() {
   const users = [
@@ -54,14 +56,15 @@ function App() {
       {/* <MyUpdatedArrayComponent/> */}
       {/* <ToDoList></ToDoList> */}
       {/* <UseEffectExample></UseEffectExample> */}
-      <DigitalClockApp type={1}></DigitalClockApp>
-      <DigitalClockApp type={2}></DigitalClockApp>
+      {/* <DigitalClockApp type={1}></DigitalClockApp>
+      <DigitalClockApp type={2}></DigitalClockApp> */}
       {/* <ComponentA/> */}
       
       {/* <ToggleButton/>
       <br />
       <UseRefComponent></UseRefComponent> */}
-      <StopWatchApp></StopWatchApp>
+      {/* <StopWatchApp></StopWatchApp> */}
+      <PkgArticle></PkgArticle>
     </>
   );
 }
