@@ -46,12 +46,14 @@ const DigitalClockApp = (props) => {
 
   return (
     <>
-      <h1>{clockType == "1" ? "Current Time" : "Time until Midnight"}</h1>
-      <div className='clock-container'>
-          <div className="clock">
-            <span>{clockType == "1" ? formatTime() : countdownToMidnight()}</span>
-          </div>
-          {/* {militaryTime ? <button>Military Time</button> : ""} */}
+      <div className="clock-container">        
+        <h1>{clockType == "1" ? "Current Time" : "Time until Midnight"}</h1>
+        <div className='clock-container-inner'>
+            <div className="clock">
+              <span>{clockType == "1" ? formatTime() : countdownToMidnight()}</span>
+            </div>
+            {/* {militaryTime ? <button>Military Time</button> : ""} */}
+        </div>
       </div>
     </>
   )

@@ -19,8 +19,6 @@
     grid-template-columns: minmax(10px, 2fr) 3fr;
     gap: 20px;
 
-
-
     .pkgArticle_PackageDescription{
         position: relative;
         

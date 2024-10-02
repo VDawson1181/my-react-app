@@ -4,10 +4,11 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav class="navbar">
-        <div className='navLeftSide'>NT.com</div>
-        <div className="navRightSide">
-            <NavLink to="my-react-app/">Home</NavLink>
+    <nav className="navbar">
+        <div className='navLeftSide'>
+        <NavLink to="my-react-app/">NT.com</NavLink>
+        </div>
+        <div className="navRightSide">            
             <NavLink to="my-react-app/about">About</NavLink>
             <NavLink to="my-react-app/portfolio">Portfolio</NavLink>
             <NavLink to="my-react-app/contact">Contact</NavLink>
