@@ -17,7 +17,11 @@ import './reset.css';
 // import './ToggleButton/ToggleButton.css'
 // import UseRefComponent from "./useRefExample/UseRefComponent";
 // import StopWatchApp from "./StopWatch/StopWatchApp";
-import PkgArticle from "./Pkg_Article/PkgArticle";
+// import PkgArticle from "./components/Pkg_Article/PkgArticle";
+import Home from './routes/Home.jsx';
+import About from './routes/About.jsx';
+import Contact from './routes/Contact.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
 
 function App() {
   const users = [
@@ -64,7 +68,9 @@ function App() {
       <br />
       <UseRefComponent></UseRefComponent> */}
       {/* <StopWatchApp></StopWatchApp> */}
-      <PkgArticle></PkgArticle>
+      {/* <PkgArticle></PkgArticle> */}
+        {/* <Home/> */}
+        <Navbar/>
     </>
   );
 }
