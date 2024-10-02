@@ -13,12 +13,13 @@
     min-height: 100vh;
     min-width: 750px;
     margin: 0;
-    padding: 0;
+    padding: 50px 0;
     display: grid;
     justify-content: center;
     align-items: top;
     grid-template-columns: minmax(10px, 2fr) 3fr;
     gap: 20px;
+    border-bottom: 2px solid #999;
 
     .pkgArticle_PackageDescription{
         position: relative;
@@ -50,18 +51,38 @@
         }
     }
 
-    .pkgArticle_PackageRundown li{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .pkgArticle_PackageRundown li {
         list-style: none;
-        margin-bottom: 50px;
 
-        p{
-            font-size: 2rem;
-            text-align: center;
-            text-shadow: 2px 2px 3px hsla(0, 0%, 100%, 0.95);
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+
+            p{
+                font-size: 1rem;
+                text-align: center;
+                text-shadow: 2px 2px 3px hsla(0, 0%, 100%, 0.95);
+            }
         }
     }
+}
+
+
+#PositiveImpact .pkgArticle_PackageRundown li div:nth-of-type(1),
+#PositiveImpact .pkgArticle_PackageRundown li div:nth-of-type(2),
+#PositiveImpact .pkgArticle_PackageRundown li div:nth-of-type(3){
+    width: 510px;
+    margin: 0 auto 50px;
+}
+
+#PositiveImpact .pkgArticle_PackageRundown li div:nth-of-type(3) img {
+	min-height: 783px;
+	margin-top: -11px;
+}
+#PositiveImpact .pkgArticle_PackageRundown li div:nth-of-type(1) p,
+#PositiveImpact .pkgArticle_PackageRundown li div:nth-of-type(2) p{
+    display: none;
 }
