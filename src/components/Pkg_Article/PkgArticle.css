@@ -9,6 +9,7 @@
     background-size: cover;
     background-attachment: fixed; */
 
+    width: 100vw;
     min-height: 100vh;
     min-width: 750px;
     margin: 0;
