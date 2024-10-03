@@ -18,25 +18,25 @@ const Portfolio = () => {
                 <ul>
                 <li>
                     <p>#1: No Winner, No Check?</p>
-                    <img className="card-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="REAL OF FAKE: Sweeps Winner Not Home. Prize Patrol Gives Up!" loading="lazy"/>
+                    <img className="card-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="REAL OF FAKE: Sweeps Winner Not Home. Prize Patrol Gives Up!" loading="lazy"/>
                     <h3 class="redCpy">FAKE NEWS!</h3>
                     <p>No way this is true! The PCH Prize Patrol always finds our winner, even if that means delivering the “big check” on a plane ride to New York (yes, that really happened).</p>
                 </li>
                 <li>
                     <p>#2: A Call to Collect? </p>
-                    <img className="card-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH Winner Contacted by Phone to Collect Major Prize!" loading="lazy"/>
+                    <img className="card-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="PCH Winner Contacted by Phone to Collect Major Prize!" loading="lazy"/>
                     <h3 class="redCpy">FAKE NEWS!</h3>
                     <p>We'll NEVER tell a major prize winner before award day that they won - and certainly not by phone (that's a scam alert). It's just not our style. We like to surprise our winner on award day in person with a big smile and a very big check.</p>
                 </li>
                 <li>
                     <p>#3: Losing State?</p>
-                    <img className="card-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="No PCH Winners From My State EVER!" loading="lazy"/>
+                    <img className="card-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="No PCH Winners From My State EVER!" loading="lazy"/>
                     <h3 class="redCpy">FAKE NEWS!</h3>
                     <p>No way - you can bet we've had winners from your home state! In fact, over $327 Million has been awarded to date with winners in ALL 50 STATES - including yours -- plus Canada and the Yukon, too! That's a lot of winning.</p>
                 </li>
                 <li>
                     <p>#4: June 30th Event?</p>
-                    <img className="card-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="Local Resident 'Wins It All' in PCH's Special Early Look June 30th Prize Event!" loading="lazy"/>
+                    <img className="card-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="Local Resident 'Wins It All' in PCH's Special Early Look June 30th Prize Event!" loading="lazy"/>
                     <h3 class="greenCpy">REAL NEWS!</h3>
                     <p>Absolutely! The next big prize we're prepared to award is the multimillion-dollar “Win It All” prize - that's a $2 Million lump-sum, plus $10,000 A Month For Life, plus a New Lincoln MKZ valued at $36,095 - and we could be heading to your area. Have you entered to win today?</p>
                 </li>
@@ -69,7 +69,7 @@ const Portfolio = () => {
   ];
   const pf_Post = {
       content: `
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH.com Games Jigsaw Puzzle" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="PCH.com Games Jigsaw Puzzle" loading="lazy"/>
                 <h1>Who doesn't love a good online jigsaw puzzle?</h1>
                 <p>The fact is, with the dawn of the digital age, many adults aren't reaching far beyond their computers and smart devices for classic games (like jigsaw puzzles) that we all enjoyed as kids. And now, this beloved strategy game is online at <span class="redCpy">PCH.com Games</span>, and ready to play from your desktop, unlimited and for free.</p>
                 <p>Yes, together again in a puzzle-piece-fitting frenzy, you relive the fun days of your youth with online jigsaw puzzles anytime you want.</p>
@@ -108,7 +108,7 @@ const Portfolio = () => {
   const gp_Post = {
       content: `
                 <p><strong>Hello friends and fans! So, you <span class="redCpy">want to win the $5,000 A Week "Forever" prize on August 31st</span> that pays out for not one, but two generations? Then, you've obviously thought about how you'd spend the winnings -- right?</strong></p>
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH.com Games Jigsaw Puzzle" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="PCH.com Games Jigsaw Puzzle" loading="lazy"/>
                 <p>I don't know about you, but for me, I know exactly what I would do with that cash windfall. You see, I'm currently shopping for my very first home. And as it turns out: My red, white, and blue "American Dream" of owning vs. renting could use a little more… green.</p>
                 <p>Now, I'm a country girl at heart, so a home with an inviting kitchen, is all I need. There I can be left to recreate family recipes like my Great Aunt's legendary Sunday sauce or bake-up a storm of breads, and muffins and favorite pies (you know who you are, Blueberry and Key Lime). And, of course, I'd create what will eventually become the new family recipes to be passed down to future generations for years to come.</p>
                 <p><strong>Let's face it: Passing down the "secret sauce" from generation to generation is important.</strong> And PCH gets that. That's why the Prize Patrol is preparing to award the multi-generational "Forever" prize on August 31st.</p>
@@ -141,7 +141,7 @@ const Portfolio = () => {
   ];
   const sk_Post = {
       content: `
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH Wears the Crown for Easy, Fun Sweeps!" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="PCH Wears the Crown for Easy, Fun Sweeps!" loading="lazy"/>
                 <h1>A Royal Win! PCH is the Play From Home Sweepstakes King</h1>
                 <p>Hear ye, hear ye! I hereby name PCH of the House Mertz the KING of <span class="redCpy">Play From Home Sweepstakes</span>, the Bringer of the “Big Checks”, the Breaker of debt Chains, Awarder of Prizes, Maker of Winners, Changer of Lives, Father of Giveaways, true and rightful Heir to the sweeps throne!</p>
                 <p><span>(Phew! That's a mouthful!)</span></p>
@@ -150,9 +150,9 @@ const Portfolio = () => {
                 
                 <p>We have a strict <strong>no pay to play</strong> policy which means you can enter for all your favorite prizes (we'll go over all the fun stuff available to win further down the list) with absolutely no cost to you and as often as you want, on as many devices as you want, so you can get your play from home sweepstakes fix wherever you are.</p>
                 <p><span class="redCpy">PCH.com</span> is always a great place to start! Get your daily fill in our “sweepstakes” tab - we have lots and lots of great prizes to choose from - and you can get double chances to win every single prize if you log in on both your Desktop and Mobile device.</p>
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH.com homepage!" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="PCH.com homepage!" loading="lazy"/>
                 <p>But don't stop there! <strong>Download The PCH APP and go for even MORE of the sweeps that you love!</strong> AND BEST YET, JUST BY HAVING THE APP ON YOUR PHONE, YOU COULD BECOME A WINNER!! Did I mention it's free?</p>
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="Download The PCH App on your mobile device!" loading="lazy"/>                
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="Download The PCH App on your mobile device!" loading="lazy"/>                
                 <h2>We Make Entering FUN!</h2>                
                 <p>Gone are the days of boring, unoriginal online entry forms. The new PCH way, <span class="redCpy">reserves your daily prizes entries with a little playtime</strong> - we've got arcade and carnival games, plus casino-style fun and more! My personal favorite (I'm obsessed) is the $1,000,000 Shipwreck Stash game where you pop under-water bubbles filled with cash to boost your prize amount. But there's lots of good, clean fun and entertainment on the site, and all roads lead to entries!</p>
                 <h2>Our Prizes are REAL - And So Are Our Winners!</h2>                
@@ -185,7 +185,7 @@ const Portfolio = () => {
   const ls_Post = {
       content: `
                 <h3>Know what the secret to youthful beauty is? Your skincare routine. Are you using the best skincare products to target your problem areas?</h3>
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="Introducing Perfect Body Laser's New Skincare Line" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="Introducing Perfect Body Laser's New Skincare Line" loading="lazy"/>
                 <p><span class="redCpy">Perfect Body Laser has a whole new skincare line</span> - and we can't wait to share our personal favorites that will have you looking and feeling radiant!</p>
                 <p>We've found the best skincare “miracle” solutions for every skin type and every problem area. From firming creams to overnight serums to blemish diminishers, we've put together our top ten <span class="redCpy">must-have skincare products</span> that we “heart” the most for you - and we're sure you're going to love them too (and the incredible, <span class="redCpy">youthful-looking Perfect Body results)</span>.</p>
                 <ol>
@@ -219,7 +219,7 @@ const Portfolio = () => {
   ];
   const em_Post = {
       content: `
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="Perfect Body Logo" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="Perfect Body Logo" loading="lazy"/>
                 <p>Emsculpt not only works, it's the BEST in its class at Body Contouring and Fat Reduction!</p>
                 <p>When it comes to weight loss guarantees, the words “quick fix” used to mean too good to be true. Now, it means <u>Emsculpt</u>.</p>
                 <p>YES — this impressive fat blasting “miracle” machine, the hottest new trend in reducing body fat quickly (and almost too easily), really does all that it claims! But its more than just a weight loss solution, it's a godsend for athletes.</p>
@@ -254,7 +254,7 @@ const Portfolio = () => {
   ];
   const lhr_Post = {
       content: `
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="Perfect Body Logo" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="Perfect Body Logo" loading="lazy"/>
                 <p>Why more and more men and women are turning to laser treatments to remove hair from their legs, face, arms, shoulders, back, bullocks and bikini area.</p>
                 <p>I cannot tell you how often we hear, <span class="lrgtxt">/"Can I get laser hair removal on my whole body?/"</span> or “Does laser hair removal work on men?” In short, the answer to both is YES!</p>
                 <p>Laser hair removal is a safe, permanent full-body smooth skin solution that has proven, outstanding effectiveness for long-lasting hair removal on all parts of the body: arms, legs, face, bikini area, buttocks, back, shoulders, even around the neck, ears and eyebrows, you can eliminate hair on every part of the body, easily and pain-free.</p>
@@ -292,7 +292,7 @@ const Portfolio = () => {
   ];
   const diet_Post = {
       content: `
-                <img className="blog-image" src="../src/assets/packages/goodThings/GT_Pkg_1.png" alt="Perfect Body Logo" loading="lazy"/>
+                <img className="blog-image" src="../src/assets/packages/goodThings/GTPkg1.png" alt="Perfect Body Logo" loading="lazy"/>
                 <p>Here are the foods that cause cellulite and the best laser treatments to remove cellulite build-up for good!</p>
                 <p>What you're eating everyday matters. Yes, it's true that genetics play an important role in the development of cellulite - but did you know the build-up of toxins in your body, along with poor blood circulation, hormones and your skin's natural elasticity, <span class="lrgtxt">can actually make the appearance of cellulite worse?</span> And, it's the food we take in every day that has a big impact on our body's reaction to ALL of these things.</p>
                 <p>So, instead of replaying the “healthy eating advice” we've all heard for years (lots of fruits and vegetables, only lean protein, no junk food or unhealthy snacking, blah blah blah), here are some foods that can make cellulite worse, and other foods that help minimize cellulite.</p>

@@ -17,9 +17,9 @@ const Portfolio = () => {
     },
   ];
   const gt_images = [
-    {url: "../src/assets/packages/goodThings/GT_Email.png", blurb: ""},
-    {url: "../src/assets/packages/goodThings/GT_Pkg_1.png", blurb: ""},
-    {url: "../src/assets/packages/goodThings/GT_Pkg_2.png", blurb: ""},
+    {url: "../src/assets/packages/goodThings/GTEmail.png", blurb: ""},
+    {url: "../src/assets/packages/goodThings/GTPkg1.png", blurb: ""},
+    {url: "../src/assets/packages/goodThings/GTPkg2.png", blurb: ""},
   ];
 
   // MoneyTree
@@ -56,13 +56,13 @@ const Portfolio = () => {
     },
   ];
   const pi_images = [
-    {url: "../src/assets/packages/positiveImpact/PI_Email_Top.png", blurb: ""},
-    {url: "../src/assets/packages/positiveImpact/PI_Email_Mid.gif", blurb: ""},
-    {url: "../src/assets/packages/positiveImpact/PI_Email_Body.png", blurb: "The upfront message teases THREE positive impact checks with the last check remaining a mystery until the user clicks through to the landing page."},
-    {url: "../src/assets/packages/positiveImpact/PI_Pkg_1.png", blurb: "On load of the landing page, the user gets a pop-up message asking him to make a decision regarding how much the last positive impact check should be made out for if he wins from this notice. Johnny is choosing between three prize values: Cash for a Vacation, Cash for a new Car, or Cash towards a Charity."},
-    {url: "../src/assets/packages/positiveImpact/PI_Pkg_2.png", blurb: "Once Johnny picks, he is asked to confirm his choice."},
-    {url: "../src/assets/packages/positiveImpact/PI_Pkg_3.png", blurb: ""},
-    {url: "../src/assets/packages/positiveImpact/PI_Pkg_4.png", blurb: "This was placed into an affinity mailing targeted to buyers who have shown an interest in kitchen items. We added a fun virtual recipe card that Johnny could print for free."},
+    {url: "../src/assets/packages/positiveImpact/PIEmailTop.png", blurb: ""},
+    {url: "../src/assets/packages/positiveImpact/PIEmailMid.gif", blurb: ""},
+    {url: "../src/assets/packages/positiveImpact/PIEmailBody.png", blurb: "The upfront message teases THREE positive impact checks with the last check remaining a mystery until the user clicks through to the landing page."},
+    {url: "../src/assets/packages/positiveImpact/PIPkg1.png", blurb: "On load of the landing page, the user gets a pop-up message asking him to make a decision regarding how much the last positive impact check should be made out for if he wins from this notice. Johnny is choosing between three prize values: Cash for a Vacation, Cash for a new Car, or Cash towards a Charity."},
+    {url: "../src/assets/packages/positiveImpact/PIPkg2.png", blurb: "Once Johnny picks, he is asked to confirm his choice."},
+    {url: "../src/assets/packages/positiveImpact/PIPkg3.png", blurb: ""},
+    {url: "../src/assets/packages/positiveImpact/PIPkg4.png", blurb: "This was placed into an affinity mailing targeted to buyers who have shown an interest in kitchen items. We added a fun virtual recipe card that Johnny could print for free."},
   ];
 
   // Uncut Checks
@@ -78,12 +78,12 @@ const Portfolio = () => {
     },
   ];
   const uc_images = [
-    {url: "../src/assets/packages/uncutChecks/UC_Email.png", blurb: "The top of the email is attention-grabbing with an oversized prize statement overlapping the checks to emphasize the massive payout amount. We used minimal copy above the fold as a teaser and kept the letter informational and on the shorter side."},
-    {url: "../src/assets/packages/uncutChecks/UC_1.png", blurb: "Landing Page: The user clicks through the email and sees a continuation of the uncut checks theme."},
-    {url: "../src/assets/packages/uncutChecks/UC_2.png", blurb: "Call to order: We segmented the messaging here, targeting our lower tier of orderers, encouraging them to place a new order today to “level up” and start receiving bigger and better customer level benefits."},
-    {url: "../src/assets/packages/uncutChecks/UC_3.png", blurb: ""},
-    {url: "../src/assets/packages/uncutChecks/UC_4.png", blurb: "Supporting Assets: These assets are sprinkled throughout the lineup between products on tab 2 and 3, as a reminder to the user that their entry has not yet been submitted and they have to keep going to complete it."},
-    {url: "../src/assets/packages/uncutChecks/UC_5.png", blurb: "Entry Confirmation Stamp"},
+    {url: "../src/assets/packages/uncutChecks/UCEmail.png", blurb: "The top of the email is attention-grabbing with an oversized prize statement overlapping the checks to emphasize the massive payout amount. We used minimal copy above the fold as a teaser and kept the letter informational and on the shorter side."},
+    {url: "../src/assets/packages/uncutChecks/UC1.png", blurb: "Landing Page: The user clicks through the email and sees a continuation of the uncut checks theme."},
+    {url: "../src/assets/packages/uncutChecks/UC2.png", blurb: "Call to order: We segmented the messaging here, targeting our lower tier of orderers, encouraging them to place a new order today to “level up” and start receiving bigger and better customer level benefits."},
+    {url: "../src/assets/packages/uncutChecks/UC3.png", blurb: ""},
+    {url: "../src/assets/packages/uncutChecks/UC4.png", blurb: "Supporting Assets: These assets are sprinkled throughout the lineup between products on tab 2 and 3, as a reminder to the user that their entry has not yet been submitted and they have to keep going to complete it."},
+    {url: "../src/assets/packages/uncutChecks/UC5.png", blurb: "Entry Confirmation Stamp"},
   ];
 
   // We're Getting Close
@@ -100,12 +100,12 @@ const Portfolio = () => {
   ];
   const wgc_images = [
     {url: "../src/assets/packages/wereGettingClose/wgc_Email.png", blurb: "E-Mail"},
-    {url: "../src/assets/packages/wereGettingClose/wgc_1.png", blurb: "Landing Page: We used a driving animation here to help set the scene of a prize delivery. It's a dream sequence that outs the user in the driver's seat. This animation autostarts on load and continues for 4 stages until a hard with the call to action for Johnny to enter is presented."},
-    {url: "../src/assets/packages/wereGettingClose/wgc_2.png", blurb: "We designed a custom billboard"},
-    {url: "../src/assets/packages/wereGettingClose/wgc_3.png", blurb: ""},
-    {url: "../src/assets/packages/wereGettingClose/wgc_4.png", blurb: "Balloons swaying in the breeze"},
-    {url: "../src/assets/packages/wereGettingClose/wgc_5.png", blurb: "We continued the driving theme for the product section. Here we created a digital sign that switched out messaging in two stages."},
-    {url: "../src/assets/packages/wereGettingClose/wgc_6.png", blurb: "Included targeted messaging for lapsed buyers"},
+    {url: "../src/assets/packages/wereGettingClose/wgc1.png", blurb: "Landing Page: We used a driving animation here to help set the scene of a prize delivery. It's a dream sequence that outs the user in the driver's seat. This animation autostarts on load and continues for 4 stages until a hard with the call to action for Johnny to enter is presented."},
+    {url: "../src/assets/packages/wereGettingClose/wgc2.png", blurb: "We designed a custom billboard"},
+    {url: "../src/assets/packages/wereGettingClose/wgc3.png", blurb: ""},
+    {url: "../src/assets/packages/wereGettingClose/wgc4.png", blurb: "Balloons swaying in the breeze"},
+    {url: "../src/assets/packages/wereGettingClose/wgc5.png", blurb: "We continued the driving theme for the product section. Here we created a digital sign that switched out messaging in two stages."},
+    {url: "../src/assets/packages/wereGettingClose/wgc6.png", blurb: "Included targeted messaging for lapsed buyers"},
   ];
 
   return (
