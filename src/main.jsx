@@ -8,15 +8,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Home from './routes/Home.jsx';
 import About from './routes/About.jsx';
-import Contact from './routes/Contact.jsx';
 import Portfolio from './routes/Portfolio.jsx';
 import Blogs from './routes/Blogs.jsx';
 import EMails from './routes/Emails.jsx';
+import Contact from './routes/Contact.jsx';
 
 // import './clock.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
     <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -28,5 +28,5 @@ createRoot(document.getElementById('root')).render(
         <Route path='my-react-app/contact' element={<Contact/>}></Route>
       </Routes>
     </BrowserRouter>
-   </StrictMode>
+  //  </StrictMode>
 )
