@@ -10,7 +10,7 @@ const Home = () => {
         <h2>Homepage</h2>
         <DigitalClockApp type={1}></DigitalClockApp>
         <DigitalClockApp type={2}></DigitalClockApp>
-        <UseRefComponent></UseRefComponent>
+        {/* <UseRefComponent></UseRefComponent> */}
     </>
   )
 }
