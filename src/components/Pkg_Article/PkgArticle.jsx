@@ -1,54 +1,26 @@
 
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useState} from 'react';
 import './PkgArticle.css'
 
-const PkgArticle = (props) => {
-const pkgId = props.id;
-const userList = props.items;
-const imageList = props.images;
+const PkgArticle = ({id, items, images}) => {
+const pkgId = id;
+const userList = items;
+const imageList = images;
 
-const [isEmployed, setIsEmployed] = useState(false);
+const [toggle, setToggle] = useState(false);
 
-const toggleEmployedStatus = () => {
-    setIsEmployed(!isEmployed);
+const toggleShowStatus = () => {
+    setToggle(!toggle);
 }
 
-const inputRef = useRef(null);
-
-const handleClick = () => {
-    // e.preventDefault();
-    // e.target.textContent = "Clicked!";
-    // e.target.style.opacity = "0.5";
-    // e.target.style.cursor = "default";
-    // e.target.disabled = true;
-
-    // e.target.nextElementSibling.style.opacity = "0.5";
-    inputRef.current.focus();
-    inputRef.current.style.backgroundColor = "yellow";
-
-    // console.log(e.target.nextElementSibling);
-}
-
-
-// const [selected, setSelected] = useState(null);
-// const toggle = () => index => {
-//     if(selected == index){
-//         return setSelected(null);
-//     }
-    
-//     console.log(selected)
-//     setSelected(index);
-// }
-
-
-    const images = imageList.map( (image, index) => <div key={index}>
+    const pkgImages = imageList.map( (image, index) => <div key={index}>
                 <img className="card-image" src={ image.url } alt="Image" loading="lazy"/>
                 <p>{image.blurb}</p>
                 </div>);
     
-    const packages = userList.map((item, index) => <div id={pkgId} key={pkgId} className='pkgArticleMain'>
-        <h2 className='clicker' onClick={toggleEmployedStatus}>{item.title}</h2>
-        <div className={isEmployed ? "pkgArticleInner pkgOpen" : "pkgArticleInner pkgClosed"}>
+    const packages = userList.map((item, index) => <div id={pkgId} key={pkgId} className={item.isValid ? "pkgArticleMain":"PkgArticleHidden"}>
+        <h2 className='clicker' onClick={toggleShowStatus}>{item.title}</h2>
+        <div className={toggle ? "pkgArticleInner pkgOpen" : "pkgArticleInner pkgClosed"}>
             <div className="pkgArticle_PackageDescription">
                     <aside>
                         <h1>"{item.title}" - <span>{item.type}</span></h1>
@@ -63,7 +35,7 @@ const handleClick = () => {
             <div className="pkgArticle_PackageRundown">
                 <ul>
                     <li>
-                        {images}
+                        {pkgImages}
                     </li>
                 </ul>
             </div> 

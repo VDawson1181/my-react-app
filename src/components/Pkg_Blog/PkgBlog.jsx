@@ -1,29 +1,32 @@
-
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import './PkgBlog.css'
 
-const PkgBlog = (props) => {
-const blogId = props.id;
-const blogList = props.items;
-const markup = props.markup;
+const PkgBlog = ({id, items, markup}) => {
+const blogId = id;
+const blogList = items;
+const blogMarkup = markup;
+
+const [toggle, setToggle] = useState(false);
+
+const toggleShowStatus = () => {
+    setToggle(!toggle);
+}
 
     
-    const packages = blogList.map((item, index) => <div id={blogId} key={blogId} className='PkgBlogMain'>
-        <h2 className='clicker'>{item.title}</h2>
-        <div className="PkgBlogInner">
-
-            <div className="PkgBlog_PackageRundown">
-                    <div dangerouslySetInnerHTML={markup} />
+    const blogs = blogList.map((item, index) => <div id={blogId} key={blogId} className={item.isValid ? "PkgBlogMain":"PkgBlogHidden"}>
+        <h2 className='clicker' onClick={toggleShowStatus}>{item.title}</h2>
+        <div className={toggle ? "PkgBlogInner pkgOpen": "PkgBlogInner pkgClosed"}>
+            <div className="PkgBlog_Markup">
+                    <div dangerouslySetInnerHTML={blogMarkup} />
             </div> 
         </div>
-        <hr />
     </div>
     );
 
 
     
   return (<>
-  {packages} 
+  {blogs} 
   </>
 
   )

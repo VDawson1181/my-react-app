@@ -11,6 +11,7 @@ import About from './routes/About.jsx';
 import Contact from './routes/Contact.jsx';
 import Portfolio from './routes/Portfolio.jsx';
 import Blogs from './routes/Blogs.jsx';
+import EMails from './routes/Emails.jsx';
 
 // import './clock.css'
 
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='my-react-app/about' element={<About/>}></Route>
         <Route path='my-react-app/portfolio' element={<Portfolio/>}></Route>
         <Route path='my-react-app/blogs' element={<Blogs/>}></Route>
+        <Route path='my-react-app/emails' element={<EMails/>}></Route>
         <Route path='my-react-app/contact' element={<Contact/>}></Route>
       </Routes>
     </BrowserRouter>
