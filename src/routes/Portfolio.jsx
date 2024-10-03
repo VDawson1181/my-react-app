@@ -1,5 +1,6 @@
 import React from 'react'
 import PkgArticle from '../components/Pkg_Article/PkgArticle';
+import { Outlet } from 'react-router-dom';
 
 const Portfolio = () => {
 
@@ -115,6 +116,8 @@ const Portfolio = () => {
       <PkgArticle id="positiveImpact" items={pi_users} images={pi_images}/>
       <PkgArticle id="uncutChecks" items={uc_users} images={uc_images}/>
       <PkgArticle id="weGettinClose" items={wgc_users} images={wgc_images}/>
+
+      <Outlet/>
     </>
   )
 }
