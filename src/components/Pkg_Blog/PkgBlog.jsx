@@ -3,13 +3,12 @@ import React, {useState} from 'react'
 import './PkgBlog.css'
 
 const PkgBlog = (props) => {
-const pkgId = props.id;
-const userList = props.items;
-const imageList = props.images;
+const blogId = props.id;
+const blogList = props.items;
 const markup = props.markup;
 
     
-    const packages = userList.map((item, index) => <div id={pkgId} key={pkgId} className='PkgBlogMain'>
+    const packages = blogList.map((item, index) => <div id={blogId} key={blogId} className='PkgBlogMain'>
         <h2 className='clicker'>{item.title}</h2>
         <div className="PkgBlogInner">
 

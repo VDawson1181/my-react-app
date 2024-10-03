@@ -130,6 +130,49 @@ const Portfolio = () => {
 
                 `}
   const gp_Markup = { __html: gp_Post.content };
+  
+  // Sweeps King
+  const sk_blog = [
+    {
+      id: "sweepsKing",
+      title: "PCH is the Play From Home Sweepstakes King!",      
+      isValid: true, 
+    },
+  ];
+  const sk_Post = {
+      content: `
+                <img className="blog-image" src="./src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH Wears the Crown for Easy, Fun Sweeps!" loading="lazy"/>
+                <h1>A Royal Win! PCH is the Play From Home Sweepstakes King</h1>
+                <p>Hear ye, hear ye! I hereby name PCH of the House Mertz the KING of <span class="redCpy">Play From Home Sweepstakes</span>, the Bringer of the “Big Checks”, the Breaker of debt Chains, Awarder of Prizes, Maker of Winners, Changer of Lives, Father of Giveaways, true and rightful Heir to the sweeps throne!</p>
+                <p><span>(Phew! That's a mouthful!)</span></p>
+                <p>When it comes to the exciting world of Play From Home Sweepstakes, it may feel like a lot companies are fighting for their place on the throne, but here's why Publishers Clearing House earns the iron seat:</p>
+                <h2>FREE and EASY Access to Every Single One of Our Sweeps!</h2>
+                
+                <p>We have a strict <strong>no pay to play</strong> policy which means you can enter for all your favorite prizes (we'll go over all the fun stuff available to win further down the list) with absolutely no cost to you and as often as you want, on as many devices as you want, so you can get your play from home sweepstakes fix wherever you are.</p>
+                <p><span class="redCpy">PCH.com</span> is always a great place to start! Get your daily fill in our “sweepstakes” tab - we have lots and lots of great prizes to choose from - and you can get double chances to win every single prize if you log in on both your Desktop and Mobile device.</p>
+                <img className="blog-image" src="./src/assets/packages/goodThings/GT_Pkg_1.png" alt="PCH.com homepage!" loading="lazy"/>
+                <p>But don't stop there! <strong>Download The PCH APP and go for even MORE of the sweeps that you love!</strong> AND BEST YET, JUST BY HAVING THE APP ON YOUR PHONE, YOU COULD BECOME A WINNER!! Did I mention it's free?</p>
+                <img className="blog-image" src="./src/assets/packages/goodThings/GT_Pkg_1.png" alt="Download The PCH App on your mobile device!" loading="lazy"/>                
+                <h2>We Make Entering FUN!</h2>                
+                <p>Gone are the days of boring, unoriginal online entry forms. The new PCH way, <span class="redCpy">reserves your daily prizes entries with a little playtime</strong> - we've got arcade and carnival games, plus casino-style fun and more! My personal favorite (I'm obsessed) is the $1,000,000 Shipwreck Stash game where you pop under-water bubbles filled with cash to boost your prize amount. But there's lots of good, clean fun and entertainment on the site, and all roads lead to entries!</p>
+                <h2>Our Prizes are REAL - And So Are Our Winners!</h2>                
+                
+                <p>I'm sure you've seen our commercials on TV! They're filled with prize winners (real people) who enjoy Play From Home Sweepstakes, like you, and took a leap of faith. The truth is, we've awarded millions of dollars in prizes over the years to a lot of sweeps fans. That's because we're constantly looking for winners for our next big prize event (which happens every couple of months, so the search is always on!). This time, the prize we're prepared to award  is $2.6 Million plus $5,000 a week for life on December 22, 2017 when we soon take a special early look for a winner from giveaway number 8800.</p>                
+                <p><strong>Plus, we have millions upon millions of dollars in other prize opportunities throughout our site - there are so many ways to win!</strong></p>                
+                <p>Now, if it's instant-win excitement you're looking for, we've got you covered there, too! Try our scratch cards or special tournaments (we have tournaments every day for Slots, Blackjack and Token Games with real cash prize winners).</p>                
+                <p>Remember, our House was built on delivering millionaire-making prizes and life-changing moments for families spanning from the East Coast to the West and everything in between! So, isn't it time you got in on the action? <span class="redCpy">Visit Pch.com now</span> and get in the game!</p>                
+                <p class="signature>
+                    Best of luck,<br/>
+                    Nicole T.<br>
+                    PCH Creative<br>
+                    <span>P.S. SURPRISE! The Prize Patrol shows up to your door with the “Big Check”, what piece of “sweepstakes” advice would you pass along to the next person?</span>
+                <p>
+
+                <p class="keywordCpy">Keywords: Play From Home Sweepstakes </p>
+                <p class="metaCpy">Meta-Description: Play From Home Sweepstakes made easy, fun and FREE from the sweeps king, Publishers Clearing House! Win cash, millionaire-making prizes and more.</p>
+
+                `}
+  const sk_Markup = { __html: sk_Post.content };
 
   return (
     <>
@@ -138,6 +181,7 @@ const Portfolio = () => {
       <PkgBlog id="realVsFake" items={rn_blog} markup={rn_Markup} />
       <PkgBlog id="perfectFit" items={pf_blog} markup={pf_Markup} />
       <PkgBlog id="genPrize" items={gp_blog} markup={gp_Markup} />
+      <PkgBlog id="sweepsKing" items={sk_blog} markup={sk_Markup} />
     </>
   )
 }
