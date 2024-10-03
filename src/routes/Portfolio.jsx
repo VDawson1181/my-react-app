@@ -109,7 +109,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <h1>Portfolio</h1>
+      <h1>Packages</h1>
       <PkgArticle id="goodThings" items={gt_users} images={gt_images}/>
       <PkgArticle id="moneyTree" items={mt_users} images={mt_images}/>
       <PkgArticle id="positiveImpact" items={pi_users} images={pi_images}/>
