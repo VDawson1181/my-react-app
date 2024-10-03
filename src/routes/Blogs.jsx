@@ -113,25 +113,20 @@ const Portfolio = () => {
                 <p>Now, I'm a country girl at heart, so a home with an inviting kitchen, is all I need. There I can be left to recreate family recipes like my Great Aunt's legendary Sunday sauce or bake-up a storm of breads, and muffins and favorite pies (you know who you are, Blueberry and Key Lime). And, of course, I'd create what will eventually become the new family recipes to be passed down to future generations for years to come.</p>
                 <p><strong>Let's face it: Passing down the "secret sauce" from generation to generation is important.</strong> And PCH gets that. That's why the Prize Patrol is preparing to award the multi-generational "Forever" prize on August 31st.</p>
                 <p>With the "Forever" prize, not only would the winner receive $5,000 a week for life, but then, after that, a beneficiary of the winner's choosing would start receiving prize payouts for the rest of their life. Now, that's a family-size prize "serving" even the Great-grandkids could benefit from: a true recipe for financial success!</p>
-                <p><strong>Which begs the question: If you won an incredible $5,000 A Week "Forever," how would YOU spend the cash?</strong></p>
-                <p>SO, this FUN pastime is actually a relaxing, challenging way to keep your mind fresh and energized… where do I sign up?</p>
-                <p>Go to <span class="redCpy">PCH.com Games</span> - if you don't have an account, please create one (it's 100% secure and painlessly fast, I promise you!) - then, head over to the "strategy games" and give Jigsaw Puzzle a try.</p>
-                <p>And while you're there, here are some helpful tips to solving the puzzle:</p>
-                <ul>
-                    <li><span className="lrgtxt">Start with the edges. </span> Look for the corners and work your way around. If you need a helping hand, you can go into the <span className="lrgtxt">main menu</span> at the bottom and select "show edges." This will hide all the middle pieces, so you have a better view of "the frame."</li>
-                    <li><span className="lrgtxt">Separate the pieces using colors and patterns.</span> If they look similar, group them together. </li>
-                    <li><span className="lrgtxt">Listen for the sound of victory!</span> That's what I love about jigsaw puzzles - there's only 1 right answer. One piece that fits. So, when you hear the pieces "click," you know you've done good! </li>
-                </ul>
-                <p>And, of course, a great perk about playing online -- you'll never lose another puzzle piece again! </p>
-                <p>Good luck!</p>
+                <h2>Which begs the question: If you won an incredible $5,000 A Week "Forever," how would YOU spend the cash?</h2>
+                
+                <p>There are so many ways to enhance your life with that kind of money. An immediate idea is to celebrate your good fortune with an unforgettable extended family vacation -- maybe visit Europe or beloved American landmarks like the Grand Canyon or Statue of Liberty? But then...</p>
+                <p>You could think long term towards retirement. Maybe buy a second home in a vacation area and fly-out for the winter months (Yay! No more snow!). And looking at the big picture, you may choose to put some money aside for other family and friends to make their lives a little easier.</p>
+                <p>I know here at PCH, we believe in spreading good fortune out into the world, as I'm sure you do too. And with that, we'd love to hear how you would spend the cash and spread your fortune. Please leave your comments below -- we can't wait to read each and every one!</p>                
+                <p>Thanks, and Good luck!</p>
                 <p class="signature>
                     Nicole T.<br>
                     PCH Creative<br>
-                    <span>P.S. Games are a great way to wind down after a long day. Or better yet, start your day off with some breakfast and a quick game. What time of the day do you like to play? Leave a comment below and let me know.</span>
+                    <span>P.S.  Remember, with a prize that big at stake, I recommend you <span class="redCpy">visit PCH.com</span> today, tomorrow and every day before the 8/24 (11:59PM, ET) deadline to claim as many chances  to win $5,000 A Week "Forever" Good luck!</span>
                 <p>
 
-                <p class="keywordCpy">Keywords: Online Jigsaw Puzzles, PCH.com Games</p>
-                <p class="metaCpy">Meta-description: Online Jigsaw Puzzle at PCH.com Games is a great way to stay refreshed and relaxed. Give it a try today.</p>
+                <p class="keywordCpy">Keywords: $5,000 A Week "Forever" | How would you splurge | August 31st</p>
+                <p class="metaCpy">Meta-Description: How would you splurge if you won a $5,000 A Week "Forever" prize? With a prize windfall that big, there are so many ways to enhance your life with the winnings!</p>
 
                 `}
   const gp_Markup = { __html: gp_Post.content };
